@@ -1,0 +1,54 @@
+body {
+    background: url(codeImg.jpg);
+    background-attachment: fixed;
+    background-position: 0%;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;    
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+fieldset {
+    border-width: 0px;
+    background-color: rgba(92, 79, 240, 0.667);
+    
+
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+        
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"] {
+    font-size: 120%;
+    display: block;
+    margin: auto;
+    width: 60%;
+    background-color: rgb(40, 32, 107);
+    color: white;
+  
+}

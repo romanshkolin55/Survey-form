@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+    <form action="" id="survey-form">
+        <fieldset>
+            <label for="" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" class="block"></label>
+            <label for="" id="email-label">Email <input type="email" id="email" placeholder="Enter your email" class="block"></label>
+            <label for="" id="number-label">Age(optional) <input type="number" id="number" min="10" max="100" placeholder="Enter your age" class="block"></label>
+            <label for="">Which option best describes your current role? 
+                <select name="" id="dropdown" class="block">
+                    <option value="">Select current role</option>
+                    <option value="">Student</option>
+                    <option value="">Full time job</option>
+                    <option value="">Other</option>
+                </select>
+            </label>
+            <label for="">Would you recommend freeCodeCamp to a friend?
+                <label for=""><input type="radio" name="radio"> Definitely</label>
+                <label for=""><input type="radio" name="radio"> Maybe</label>
+                <label for=""><input type="radio" name="radio"> Not sure</label>
+            </label>
+            <label for="">What would you like to see improved? (Check all that apply)
+                <label for=""><input type="checkbox" value="1"> Front-end Projects</label>
+                <label for=""><input type="checkbox" value="2"> Back-end Projects</label>
+                <label for=""><input type="checkbox" value="3"> Data Visualization</label>
+                <label for=""><input type="checkbox" value="4"> Challenges</label>
+            </label>
+            <label for="">Any comment and suggestions
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Type here..." class="block"></textarea>
+            </label>
+            <input type="submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
